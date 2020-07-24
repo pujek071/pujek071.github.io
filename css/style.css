@@ -20,8 +20,8 @@ body, html {
   
   .caption {
     position: absolute;
-    left: 0;
-    top: 75%;
+    left: 20px;
+    top: 70%;
     width: 100%;
     text-align: center;
     color: #000;
