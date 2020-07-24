@@ -3,7 +3,11 @@ body, html {
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
     color: #777;
+    overflow-x: hidden;
   }
+body {
+    position: relative;
+}
   
   .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
@@ -21,6 +25,7 @@ body, html {
   .caption {
     position: absolute;
     left: 20px;
+    right: 20px;
     top: 70%;
     width: 100%;
     text-align: center;
